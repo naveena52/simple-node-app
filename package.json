@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple node app whicch is deployed in vercel through git",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
