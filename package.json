@@ -1,20 +1,16 @@
 {
   "name": "vercel-integration",
   "version": "1.0.0",
-  "description": "This is a simple node app whicch is deployed in vercel through git",
-  "main": "app.js",
-  "engines": {
-    "node": "20.x"
-  },
+  "description": "",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Naveena",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "nodemon": "^3.1.0"
+    "express": "^4.19.2"
   }
 }
