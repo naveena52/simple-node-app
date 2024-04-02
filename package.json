@@ -2,7 +2,7 @@
   "name": "vercel-integration",
   "version": "1.0.0",
   "description": "This is a simple node app whicch is deployed in vercel through git",
-  "main": "index.js",
+  "main": "app.js",
   "engines": {
     "node": "20.x"
   },
