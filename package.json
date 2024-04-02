@@ -1,0 +1,17 @@
+{
+  "name": "vercel-integration",
+  "version": "1.0.0",
+  "description": "This is a simple node app whicch is deployed in vercel through git",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Naveena",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
